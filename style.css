@@ -1,0 +1,72 @@
+body{
+    font-family: Montserrat ;
+    background-color: darkred;
+    margin: 0;
+    padding: 20px;
+}
+
+form{
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="phone"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: seagreen;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(35, 108, 67);
+}
+
+input[type="reset"]{
+    background-color: rgb(201, 52, 52);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+}
+
+input[type="reset"]:hover{
+    background-color: brown;
+}
+
+/* https://www.shecodes.io/athena/43505-how-to-place-two-buttons-side-by-side-in-html-css# */
+.button-container{
+    display: flex;
+}
+
+h7{
+    text-align: center;
+    color: antiquewhite;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
